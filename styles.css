@@ -12,6 +12,16 @@
     --black:#0D1317;
 }
 
+#navbarimg {
+    height:50px;
+    margin-right:30px;
+}
+
+.navbartitle {
+    padding:0px !important;
+    margin:0px !important;
+}
+
 .member-row {
     display:flex;
     flex-wrap:wrap;
