@@ -1,0 +1,76 @@
+:root {
+    /*Navbar Colors*/
+    --navbarcolor:#222222;
+    --navbaractive:#444444;
+    --navbartext:#EEEEEE;
+
+    --mainbackground:#404040;
+
+    /*Color Scheme*/
+    --lightblue:#89D2DC;
+    --midblue:#6564DB;
+    --blue:#232ED1;
+    --navy:#101D42;
+    --black:#0D1317;
+}
+
+@font-face {
+    font-family:Lato;
+    src:url('../assets/fonts/lato.ttf');
+}
+
+@font-face {
+    font-family:Neuterous;
+    src:url('../assets/fonts/neuterous.ttf');
+}
+
+@font-face {
+    font-family:Joy Multiplication;
+    src:url('../assets/fonts/joymultiplication.ttf');
+}
+
+body {
+    font-family:'Lato', sans-serif;
+    margin:0px;
+}
+
+#main {
+    min-height:800px;
+    padding-top:190px;
+    background-color:var(--mainbackground);
+    padding-bottom:60px;
+}
+
+#title {
+    font-family:Joy Multiplication;
+    color:white;
+    text-align:center;
+    font-size:70px;
+    margin:0px;
+    padding-top:80px;
+    padding-bottom:80px;
+}
+
+.center {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.parallax {
+    background-image: url("../assets/global/background.gif");
+    min-height: 49vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#welcome {
+    font-family:Joy Multiplication;
+    font-size:100px;
+    color:white;
+    margin:0px;
+    text-align:center;
+    vertical-align:center;
+}
