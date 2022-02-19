@@ -14,7 +14,7 @@ header {
 
 #home-link{
     text-decoration:none;
-    margin-left:50px;
+    margin-left:3vw;
 }
 
 #team-group {
@@ -22,7 +22,7 @@ header {
 }
 
 #team-logo {
-    margin:20px;
+    margin:2vw;
     margin-left:0px;
     margin-right:0px;
     max-height:8vw;
@@ -30,7 +30,7 @@ header {
 }
 
 #team-title{
-    margin:20px;
+    margin:1vw;
     margin-left:0px;
 }
 
@@ -53,7 +53,7 @@ header {
 
 #navbar {
     margin:auto;
-    margin-right:150px;
+    margin-right:8vw;
     transition:0.2s;
 }
 
