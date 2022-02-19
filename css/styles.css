@@ -3,18 +3,15 @@
     --navbarcolor:#222222;
     --navbaractive:#444444;
     --navbartext:#EEEEEE;
-
-    --mainbackground:#404040;
+    /* --mainbackground:#404040; */
+    --mainbackground:#282828;
 
     --navyurbana:#04003B;
     --greyurbana:#7A7A7C;
     --whiteurbana:#FFFFFF;
-    /* --navy:#070B47;
-    --blue:#000776;
-    --middlegrey:#8E8982;
-    --lightgrey:#9F9F9F;
-    --darkgrey:#536878;
-    --steelgrey:#7C878C; */
+    --navybackground:#193669;
+    --navyhover:#1f196e;
+    --navyactive:#2d559c;
 }
 
 @font-face {
@@ -38,9 +35,10 @@ body {
 }
 
 #main {
-    min-height:800px;
-    padding-top:190px;
     background-color:var(--mainbackground);
+    /* background-color:var(--navybackground); */
+    min-height:500px;
+    padding-top:190px;
     padding-bottom:60px;
 }
 

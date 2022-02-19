@@ -5,7 +5,8 @@ header {
     margin:0px;
     padding:0px;
     z-index:1;
-    background-color:var(--navbarcolor);
+    background-color:var(--navyurbana);
+    border-bottom:3px white solid;
 }
 
 #team-title {
@@ -37,7 +38,7 @@ header {
 #team-name {
     font-family:Joy Multiplication;
     font-size:3vw;
-    color:white;
+    color:var(--whiteurbana);
     margin-top:20px;
     margin-bottom:0px;
     transition:0.2s;
@@ -46,7 +47,7 @@ header {
 #team-number {
     font-family:Joy Multiplication;
     font-size:2vw;
-    color:white;
+    color:var(--whiteurbana);
     margin:0px;
     transition:0.2s;
 }
@@ -81,7 +82,7 @@ header {
 }
 
 .navbar-link:hover {
-    background-color:#666666;
+    background-color:var(--navyhover);
 }
 
 #dropdown {
@@ -92,7 +93,7 @@ header {
 #dropdown-content {
   display: none;
   position: absolute;
-  background-color: var(--navbaractive);
+  background-color: var(--navyurbana);
   width: min-content;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -100,13 +101,13 @@ header {
 
 #dropdown-text {
     font-size:1.5vw;
-    color:white;
+    color:var(--whiteurbana);
     padding:15px;
     margin:0px;
 }
 
 #dropdown-text:hover {
-    background-color:#666666;
+    background-color:var(--navyhover);
 }
 
 #dropdown:hover #dropdown-content {
@@ -114,6 +115,6 @@ header {
 }
 
 #active-page {
-    background-color:var(--navbaractive);
+    background-color:var(--navyactive);
     color:var(--navbartext);
 }
