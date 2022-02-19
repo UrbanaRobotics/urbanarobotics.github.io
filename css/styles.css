@@ -7,11 +7,18 @@
     --mainbackground:#404040;
 
     /*Color Scheme*/
-    --lightblue:#89D2DC;
+    /* --lightblue:#89D2DC;
     --midblue:#6564DB;
     --blue:#232ED1;
     --navy:#101D42;
-    --black:#0D1317;
+    --black:#0D1317; */
+
+    --navy:#070B47;
+    --blue:#000776;
+    --middlegrey:#8E8982;
+    --lightgrey:#9F9F9F;
+    --darkgrey:#536878;
+    --steelgrey:#7C878C;
 }
 
 @font-face {
