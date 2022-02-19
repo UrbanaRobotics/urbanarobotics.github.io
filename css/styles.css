@@ -59,19 +59,14 @@ body {
 }
 
 .parallax {
+    display:flex;
+    justify-content:center;
+    align-items:center;
     background-image: url("../assets/global/background.gif");
+    backdrop-filter:brightness(50%);
     min-height: 49vw;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-#welcome {
-    font-family:Joy Multiplication;
-    font-size:100px;
-    color:white;
-    margin:0px;
-    text-align:center;
-    vertical-align:center;
 }
