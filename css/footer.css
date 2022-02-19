@@ -5,6 +5,7 @@ footer {
     color:var(--navbartext);
     bottom:0px;
     width:100%;
+    border-top:3px white solid;
 }
 
 #copyright {
