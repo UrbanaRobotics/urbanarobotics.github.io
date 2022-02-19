@@ -10,7 +10,10 @@ function scrollFunction() {
     document.getElementById('team-name').style.fontSize = '2vw';
     document.getElementById('team-name').style.marginTop = '0px';
     document.getElementById('team-number').style.fontSize = '0vw';
-    document.getElementById('social').style.display = 'none';
+    for (var i = 0; i < document.getElementsByClassName('social-logo').length; i++) {
+      console.log( document.getElementsByClassName('social-logo')[i]);
+      document.getElementsByClassName('social-logo')[i].style.width = '0vw';
+    }
     // document.getElementById('social').style.flexDirection = 'row';
     // document.getElementById('social').style.alignItems = 'center';
     
@@ -21,7 +24,11 @@ function scrollFunction() {
     document.getElementById('team-name').style.fontSize = '3vw';
     document.getElementById('team-name').style.marginTop = '20px';
     document.getElementById('team-number').style.fontSize = '2vw';
-    document.getElementById('social').style.display = 'flex';
+    for (var i = 0; i < document.getElementsByClassName('social-logo').length; i++) {
+      console.log( document.getElementsByClassName('social-logo')[i]);
+      document.getElementsByClassName('social-logo')[i].style.width = '1.5vw';
+    }
+    // document.getElementById('social').style.display = 'flex';
     // document.getElementById('social').style.flexDirection = 'column';
     // document.getElementById('social').style.margin = '2.5vw 0vw 2.5vw 0vw';
   }

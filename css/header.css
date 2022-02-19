@@ -61,12 +61,13 @@ header {
     font-size:0px;
 }
 
-#social-link {
+.social-link {
     
 }
 
-#social-logo {
+.social-logo {
     width:1.5vw;
+    transition:width 0.2s ease-in-out;
 }
 
 #navbar {
