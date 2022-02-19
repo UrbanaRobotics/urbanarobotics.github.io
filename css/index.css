@@ -9,7 +9,8 @@
 }
 
 #introduction-description {
-
+    display:flex;
+    flex-direction:column;
 }
 
 #introduction-title {
@@ -22,4 +23,5 @@
     font-family:Lato;
     font-size:30px;
     color:white;
+    margin:0px;
 }

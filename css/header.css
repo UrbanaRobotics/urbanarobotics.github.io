@@ -62,12 +62,17 @@ header {
 }
 
 .social-link {
-    
+    text-decoration:none;
 }
 
 .social-logo {
     width:1.5vw;
     transition:width 0.2s ease-in-out;
+}
+
+.social-logo:hover {
+    transform:scale(1.2);
+    transition:transform 0.2s ease-in-out;
 }
 
 #navbar {
