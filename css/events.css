@@ -12,6 +12,10 @@
     text-decoration:none;
 }
 
+.event-image {
+  transform:scale(0.9);
+}
+
 .event-date {
     font-family:Lato;
     font-size:30px;
