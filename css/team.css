@@ -2,8 +2,8 @@
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
-    gap: 60px 0px;
-    padding-bottom:40px;
+    gap: 3vw 0vw;
+    padding-bottom:3vw;
 }
 
 .member-profile {
@@ -21,14 +21,14 @@
 .member-info {
     padding-top:10px;
     font-family:Joy Multiplication;
-    font-size:2.2vw;
+    font-size:1.5vw;
     color:white;
-    margin:5px;
+    margin:0.5vw;
 }
 
 .member-position{
     font-family:Joy Multiplication;
-    font-size:1.5vw;
+    font-size:1vw;
     color:white;
     margin:0px;
 }

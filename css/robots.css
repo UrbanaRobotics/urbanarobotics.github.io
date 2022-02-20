@@ -14,15 +14,15 @@
 
 .robot-container {
     display:flex;
-    margin-left:200px;
-    margin-right:200px;
-    gap:0px 50px;
+    margin-left:10vw;
+    margin-right:10vw;
+    gap:0vw 2.5vw;
 }
 
 .robot-img {
     flex-grow:0;
-    height:500px;
-    width:500px;
+    height:25vw;
+    width:25vw;
     object-fit:cover;
 }
 
@@ -32,13 +32,13 @@
 
 .robot-year {
     font-family:Joy Multiplication;
-    font-size:50px;
+    font-size:2.5vw;
     color:white;
 }
 
 .robot-description {
     font-family:Lato;
-    font-size:30px;
+    font-size:1.5vw;
     color:white;
 }
 

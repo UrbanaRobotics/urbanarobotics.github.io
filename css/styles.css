@@ -36,10 +36,10 @@ body {
 
 #main {
     background-color:var(--mainbackground);
-    /* background-color:var(--navybackground); */
-    min-height:500px;
-    padding-top:190px;
-    padding-bottom:60px;
+    min-height:25vw;
+    padding-top:12vw;
+    padding-bottom:6vw;
+    width:100%;
 }
 
 #title {
@@ -63,8 +63,7 @@ body {
     justify-content:center;
     align-items:center;
     background-image: url("../assets/global/background.gif");
-    backdrop-filter:brightness(50%);
-    min-height: 49vw;
+    min-height: 50vw;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
