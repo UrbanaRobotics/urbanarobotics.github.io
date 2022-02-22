@@ -1,0 +1,79 @@
+#articles {
+    display:flex;
+    justify-content:center;
+}
+
+.article-link {
+    text-decoration:none;
+    width:80%;
+}
+
+.article {
+    display:flex;
+    justify-content:center;
+    gap:0px 50px;
+    background-color:#404040;
+    width:auto;
+    padding:50px;
+}
+
+.article:hover {
+    background-color:#505050;
+}
+
+.article-date {
+    font-family:Lato;
+    font-size:20px;
+    color:var(--whiteurbana);
+    margin:0px;
+    padding:0px;
+}
+
+.article-header {
+    flex:1;
+}
+
+.article-title {
+    font-family:Joy Multiplication;
+    font-size:70px;
+    color:var(--whiteurbana);
+    margin:0px;
+    padding:0px;
+}
+
+.article-cover-img {
+    flex:1;
+    width:500px;
+}
+
+.article-context {
+    font-size:30px;
+    color:white;
+}
+
+/*
+.article {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    background-color:#404040;
+    width:60%;
+    padding:50px;
+}
+.article-header {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.article-header-logo {
+    text-align:center;
+    width:300px;
+}
+
+.article-header-team {
+    font-family:Lato;
+    font-size:30px;
+    color:var(--whiteurbana);
+    text-align:center
+} */
