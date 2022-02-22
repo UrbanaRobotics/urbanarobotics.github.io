@@ -1,6 +1,8 @@
 #articles {
     display:flex;
-    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    gap:100px;
 }
 
 .article-link {
