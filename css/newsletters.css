@@ -2,22 +2,22 @@
     display:flex;
     flex-direction:column;
     align-items:center;
-    gap:100px;
+    gap:5vw;
 }
 
 .article-link {
     text-decoration:none;
-    margin-left:200px;
-    margin-right:200px;
+    margin-left:10vw;
+    margin-right:10vw;
 }
 
 .article {
     display:flex;
     justify-content:center;
-    gap:0px 50px;
+    gap:0vw 2.5vw;
     background-color:#404040;
     width:auto;
-    padding:50px;
+    padding:2vw;
 }
 
 .article:hover {
@@ -26,14 +26,14 @@
 
 .article-date {
     font-family:Lato;
-    font-size:20px;
+    font-size:1vw;
     color:var(--whiteurbana);
     margin:0px;
     padding:0px;
 }
 
 sup {
-    font-size:12px;
+    font-size:0.6vw;
 }
 
 .article-header {
@@ -42,7 +42,7 @@ sup {
 
 .article-title {
     font-family:Joy Multiplication;
-    font-size:60px;
+    font-size:3vw;
     color:var(--whiteurbana);
     margin:0px;
     padding:0px;
@@ -50,15 +50,15 @@ sup {
 
 .article-cover-img {
     flex:2;
-    max-width:600px;
-    max-height:450px;
+    max-width:30vw;
+    max-height:25vw;
     object-fit:cover;
 }
 
 .article-context {
-    font-size:25px;
-    color:white;
-    margin-top:40px;
+    font-size:1.2vw;
+    color:var(--whiteurbana);
+    margin-top:2vw;
 }
 
 /*
