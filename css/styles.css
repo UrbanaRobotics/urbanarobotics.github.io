@@ -34,7 +34,7 @@ body {
     margin:0px;
 }
 
-#main {
+main {
     background-color:var(--mainbackground);
     min-height:25vw;
     padding-top:12vw;
