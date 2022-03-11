@@ -30,15 +30,23 @@
     flex:1;
 }
 
+.robot-name {
+    font-family:Joy Multiplication;
+    font-size:3vw;
+    color:white;
+    margin-bottom:0px;
+}
+
 .robot-year {
     font-family:Joy Multiplication;
-    font-size:2.5vw;
+    font-size:1.5vw;
     color:white;
+    margin-top:0px;
 }
 
 .robot-description {
     font-family:Lato;
-    font-size:1.5vw;
+    font-size:1.3vw;
     color:white;
 }
 
