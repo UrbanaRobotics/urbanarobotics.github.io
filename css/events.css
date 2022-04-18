@@ -1,24 +1,44 @@
-#events {
-    display:flex;
-    justify-content:space-evenly;
-    flex-wrap:wrap;
+#events-main {
+  
+}
+
+.year {
+}
+
+.events-year {
+  font-size:50px;
+  color:white;
+  text-align:center;
+}
+
+.events {
+  display:flex;
+  justify-content:space-evenly;
+  flex:wrap;
 }
 
 .event {
-    display:flex;
-    flex-direction:column;
-    max-width:300px;
-    border:5px solid black;
-    text-decoration:none;
+  display:flex;
+  flex-direction:column;
+  max-width:300px;
+  border:5px solid black;
+  text-decoration:none;
 }
 
 .event-image {
-  transform:scale(0.9);
+  transform:scale(0.7);
+}
+
+.event-name {
+  font-family:Lato;
+  font-size:30px;
+  color:white;
+  text-align:center;
 }
 
 .event-date {
     font-family:Lato;
-    font-size:30px;
+    font-size:20px;
     color:white;
     text-align:center;
 }
