@@ -59,13 +59,13 @@
     
 }
 
-.robot-performance-header {
+.robot-performance h1{
     font-family:Joy Multiplication;
     font-size:1.8vw;
     color:white;
 }
 
-.robot-performance-list {
+.robot-performance ul {
     padding:0px;
     margin:0px;
 }
@@ -86,7 +86,8 @@
 }
 
 .robot-event td{
-    padding:0.8vw;
+    padding:0.8vw 2vw 0.8vw 0vw;
+    font-size:0.8vw;
 }
 
 .reverse {
