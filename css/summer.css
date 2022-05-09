@@ -1,5 +1,51 @@
-#signup {
+#summer {
     display:flex;
-    align-items:center;
-    justify-content:center;
+}
+
+#summer-description {
+    margin:0px;
+    font-family:Lato;
+    font-size:1.5vw;
+    color:white;
+    margin-left:15vw;
+    margin-right:15vw;
+    margin-bottom:5vw;
+}
+
+#summer-info {
+    display:flex;
+    flex-direction:column;
+    flex:1;
+}
+
+.summer-info-header {
+    font-family:Joy Multiplication;
+    text-align:center;
+    color:white;
+    font-size:2.5vw;
+}
+
+.camp-description {
+    font-family:Lato;
+    color:white;
+    font-size:1.5vw;
+    margin-left:5vw;
+}
+
+.camp-image-container {
+    text-align:center;
+}
+
+.camp-image {
+    width:20vw;
+}
+
+#summer-signup {
+    flex:1;
+    text-align:center;
+}
+
+#google-form {
+    width:35vw;
+    height:80vw;
 }
