@@ -16,6 +16,9 @@
     display:flex;
     flex-direction:column;
     flex:1;
+    /*For when google form is hidden*/
+    margin-left:20vw;
+    margin-right:20vw;
 }
 
 .summer-info-header {
