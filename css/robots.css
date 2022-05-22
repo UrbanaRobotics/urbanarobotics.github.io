@@ -1,7 +1,21 @@
-#robots {
+#robot-group {
     display:flex;
     flex-wrap:wrap;
     gap:20vw 0px;
+}
+
+.robot {
+    display:flex;
+    margin-left:10vw;
+    margin-right:10vw;
+    gap:0vw 2.5vw;
+}
+
+.robot-image {
+    flex-grow:0;
+    height:38vw;
+    width:38vw;
+    object-fit:cover;
 }
 
 .robot-link {
@@ -10,20 +24,6 @@
 
 .robot-link:hover {
     background-color:#505050;
-}
-
-.robot-container {
-    display:flex;
-    margin-left:10vw;
-    margin-right:10vw;
-    gap:0vw 2.5vw;
-}
-
-.robot-img {
-    flex-grow:0;
-    height:38vw;
-    width:38vw;
-    object-fit:cover;
 }
 
 .robot-label {

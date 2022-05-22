@@ -1,18 +1,17 @@
-#summer {
-    display:flex;
-}
-
-#summer-description {
+#summercamp-introduction {
     margin:0px;
     font-family:Lato;
     font-size:1.5vw;
     color:white;
     margin-left:15vw;
     margin-right:15vw;
-    margin-bottom:5vw;
 }
 
-#summer-info {
+#summercamp-layout {
+    display:flex;
+}
+
+#summercamp-group {
     display:flex;
     flex-direction:column;
     flex:1;
@@ -21,31 +20,35 @@
     margin-right:20vw;
 }
 
-.summer-info-header {
+.summercamp {
+    margin:2vw;
+}
+
+.summercamp-title {
     font-family:Joy Multiplication;
     text-align:center;
     color:white;
     font-size:2.5vw;
 }
 
-.camp-description {
+.summercamp-description {
     font-family:Lato;
     color:white;
     font-size:1.5vw;
     margin-left:5vw;
 }
 
-.camp-image-container {
+.summercamp-image-container {
     text-align:center;
 }
 
-.camp-image {
+.summercamp-image {
     width:20vw;
 }
 
-#summer-signup {
+#summercamp-signup {
     flex:1;
-    text-align:center;
+    margin:2vw;
 }
 
 #google-form {

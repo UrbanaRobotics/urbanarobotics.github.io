@@ -1,4 +1,4 @@
-.members {
+.member-group {
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
@@ -6,27 +6,27 @@
     padding-bottom:3vw;
 }
 
-.member-profile {
+.member {
     text-align:center;
     font-size:0px;
     flex-basis:25%;
 }
 
-.avatar {
+.member-avatar {
     height:18vw;
     width:18vw;
     object-fit:cover;
 }
 
 .member-info {
-    padding-top:10px;
+    padding-top:0.5vw;
     font-family:Joy Multiplication;
     font-size:1.5vw;
     color:white;
     margin:0.5vw;
 }
 
-.member-position{
+.member-position {
     font-family:Joy Multiplication;
     font-size:1vw;
     color:white;
